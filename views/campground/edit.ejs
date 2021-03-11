@@ -1,0 +1,36 @@
+<% layout('layout/boilerplate.ejs') %>
+ <div class="row">
+      <h1 class="text-center">Edit Campground</h1>
+      <div class="col-6 offset-3">
+         <form action="/campground/<%= camp._id %>?_method=PUT" method="POST" class="needs-validation" novalidate>
+            <label class="form-label d-block mb-3">Title <input class="form-control" value="<%= camp.title %>"  type="text" autocomplete="off"
+                  name="campground[title]" required>
+                  <div class="valid-feedback">Looks Good!</div>
+            </label>
+            <label class="form-label d-block mb-3">Location <input class="form-control" type="text" value="<%= camp.location %>" autocomplete="off"
+                  name="campground[location]" required>
+                  <div class="valid-feedback">Looks Good!</div>
+            </label>
+            <label class="form-label d-block mb-3">Image Url <input class="form-control" type="text" value="<%= camp.image %>" autocomplete="off"
+                  name="campground[image]" required>
+                  <div class="valid-feedback">Looks Good!</div>
+            </label>
+            <div class="mb-3">
+               <label for="price">Price</label>
+               <div class="input-group">
+                  <span class="input-group-text" id="price-label">$</span>
+                  <input type="text" id="price" value="<%= camp.price %>" autocomplete="off" name="campground[price]" class="form-control"
+                     placeholder="0.00" aria-label="price" required aria-describedby="price-label">
+                  <div class="valid-feedback">Looks Good!</div>
+               </div>
+            </div>
+            <label class="form-label d-block mb-3">Description <textarea class="form-control" type="text"
+                  autocomplete="off" required name="campground[description]"><%= camp.description %> </textarea>
+                  <div class="valid-feedback">Looks Good!</div>
+             </label>
+            <button class="btn btn-info mb-3">Update Campground</button>
+         </form>
+   <a href="/campground/<%= camp._id %>">Back to campground</a>
+
+      </div>
+   </div>

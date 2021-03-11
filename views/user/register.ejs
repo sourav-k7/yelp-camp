@@ -1,0 +1,17 @@
+<% layout('layout/boilerplate') %>
+    <h1>Register</h1>
+    <form action="/register" method="POST" class="needs-validation" novalidate>
+        <label class="form-label d-block mb-3">Username <input class="form-control" type="text" autocomplete="off"
+                name="username" required>
+            <div class="valid-feedback">Looks Good!</div>
+        </label>
+        <label class="form-label d-block mb-3">Email <input class="form-control" type="text" autocomplete="off"
+                name="email" required>
+            <div class="valid-feedback">Looks Good!</div>
+        </label>
+ <label class="form-label d-block mb-3">Password <input type="password" class="form-control" type="text" autocomplete="off"
+                  name="password" required>
+                  <div class="valid-feedback">Looks Good!</div>
+               </label>
+               <button class="btn btn-success">Register</button>
+    </form>
