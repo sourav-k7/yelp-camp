@@ -39,7 +39,7 @@
           <li class="list-group-item ">
             Submitted by <%= camp.author.username %>
           </li>
-          <li class="list-group-item">$<%= camp.price %>/night</li>
+          <li class="list-group-item">&#8377;<%= camp.price %>/night</li>
         </ul>
         <% if(currentUser && camp.author.equals(currentUser._id)) {%>
           <div class="card-body">
@@ -90,8 +90,6 @@
                   Rated: <%=review.rating%> stars
                 </p>
                 </h2>
-                <!-- <h6 class="card-subtitle mb-2 text-muted">By <%=review.author.username%> -->
-                </h6>
                 <p>
                   <%= review.body %>
                 </p>
