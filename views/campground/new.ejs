@@ -1,8 +1,8 @@
 <% layout('layout/boilerplate.ejs') %>
    <div class="row">
       <h1 class="text-center">New Campground</h1>
-      <div class="col-6 offset-3">
-         <form action="/campground" method="POST" class="needs-validation" novalidate>
+      <div class="col-md-6 offset-md-3">
+         <form action="/campground" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
             <label class="form-label d-block mb-3">Title <input class="form-control" type="text" autocomplete="off"
                   name="campground[title]" required>
                   <div class="valid-feedback">Looks Good!</div>
@@ -11,10 +11,10 @@
                   name="campground[location]" required>
                   <div class="valid-feedback">Looks Good!</div>
                </label>
-            <label class="form-label d-block mb-3">Image Url <input class="form-control" type="text" autocomplete="off"
-                  name="campground[image]" required>
-                  <div class="valid-feedback">Looks Good!</div>
-               </label>
+               <div class="input-group mb-3">
+                  <input type="file" class="form-control" id="inputGroupFile02" multiple name="image">
+                  
+               </div>
             <div class="mb-3">
                <label for="price">Price</label>
                <div class="input-group">
