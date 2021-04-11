@@ -8,6 +8,10 @@ campground owners can post about their campgrounds.
 
 https://stormy-beyond-18947.herokuapp.com/
 
+## Screenshot
+![home](https://github.com/sourav-k7/yelp-camp/blob/master/img/home.png)
+![index](https://github.com/sourav-k7/yelp-camp/blob/master/img/Ind.png)
+![camp](https://github.com/sourav-k7/yelp-camp/blob/master/img/camp.png)
 ## Feature
 
 * Users can create, edit, and remove campgrounds
