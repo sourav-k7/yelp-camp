@@ -24,7 +24,7 @@ https://stormy-beyond-18947.herokuapp.com/
 
 * <div style="color:#a91e50"> &lt;%= EJS %/&gt; </div>
 
-* <img src="https://assets.website-files.com/5def5247146d40b977b337a3/5def5247146d40a8e2b337fb_logo-transparent.svg">
+* <img src="https://assets-global.website-files.com/5d3ef00c73102c436bc83996/5d3ef00c73102c1f23c83a2a_logo-reversed.png" width="120" height="28">
 
 * <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
