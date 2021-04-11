@@ -5,11 +5,11 @@
 YelpCamp is a website where users can find nearby campgrounds,
 campground owners can post about their campgrounds. 
 ## Site Link
----
+
 https://stormy-beyond-18947.herokuapp.com/
 
 ## Feature
----
+
 * Users can create, edit, and remove campgrounds
 * Users can review campgrounds once, and edit or remove their review
 * Authentication: All Users need to Signup or Login in order to create or review campgrounds.
@@ -19,7 +19,7 @@ https://stormy-beyond-18947.herokuapp.com/
 * Flash messages responding to users' interaction with the app
 
 ## Built with
----
+
 ### Front-end
 
 * <div style="color:#a91e50"> &lt;%= EJS %/&gt; </div>
