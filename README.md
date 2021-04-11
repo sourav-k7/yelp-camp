@@ -26,7 +26,7 @@ https://stormy-beyond-18947.herokuapp.com/
 
 ### Front-end
 
-* <div style="color:#a91e50"> &lt;%= EJS %/&gt; </div>
+* [EJS](https://ejs.co/)
 
 * <img src="https://assets-global.website-files.com/5d3ef00c73102c436bc83996/5d3ef00c73102c1f23c83a2a_logo-reversed.png" width="120" height="50">
 
