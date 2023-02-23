@@ -1,4 +1,3 @@
-const campground = require('../models/campground');
 const Campground=require('../models/campground');
 const {cloudinary}=require('../cloudinary');
 const mbxGeocoding=require('@mapbox/mapbox-sdk/services/geocoding');

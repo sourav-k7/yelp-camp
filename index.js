@@ -101,7 +101,8 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 app.use(express.urlencoded({extended:true}));
 
-mongoose.connect(dbUrl, {useNewUrlParser: true, useUnifiedTopology: true,useFindAndModify:false , useCreateIndex:true})
+mongoose.set("strictQuery", false); 
+mongoose.connect(dbUrl, {useNewUrlParser: true})
 .then(()=>{
     console.log("connected to database");
 })
